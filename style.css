@@ -84,3 +84,12 @@
     margin-top: 1.3rem;
     margin-bottom: 1rem;
 }
+
+@media (prefers-color-scheme: dark) {
+    /* defaults to dark theme */
+    
+    .back-gray{
+        --bkg-color:	#78757C;
+        --text-color: black;
+    }
+}
