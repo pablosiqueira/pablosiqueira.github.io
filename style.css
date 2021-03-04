@@ -26,6 +26,16 @@
     background-repeat: no-repeat;
 }
 
+body{
+    width: 100%;
+    background-image: url("img/forest.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
 .main-text{
     color:black;
     position: relative;
@@ -58,7 +68,7 @@
     width: 100px;
 }
 
-.back-gray{
+.back-ay{
     background-color: #78757c;
     color: black;
 }
@@ -85,12 +95,12 @@
     margin-bottom: 1rem;
 }
 
-.img-bk{
+.img-b{
     background-color: #78757c;
     border-radius: 15%;
 }
 
-.img-bk2{
+.img-b{
     background-color: #78757c;
 }
 
