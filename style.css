@@ -59,8 +59,8 @@
 }
 
 .back-gray{
-    background-color: #78757c !important;
-    color: black !important;
+    background-color: #78757c;
+    color: black;
 }
 .font-bio{
     color: white;
@@ -84,3 +84,13 @@
     margin-top: 1.3rem;
     margin-bottom: 1rem;
 }
+
+.img-bk{
+    background-color: #78757c;
+    border-radius: 15%;
+}
+
+.img-bk2{
+    background-color: #78757c;
+}
+
