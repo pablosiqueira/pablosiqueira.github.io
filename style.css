@@ -59,8 +59,8 @@
 }
 
 .back-gray{
-    background-color:	#78757C;
-    color: black;
+    background: color #78757c !important;
+    color: black !important;
 }
 .font-bio{
     color: white;
@@ -83,13 +83,4 @@
     height: 90px;
     margin-top: 1.3rem;
     margin-bottom: 1rem;
-}
-
-@media (prefers-color-scheme: dark) {
-    /* defaults to dark theme */
-    
-    .back-gray{
-        --bkg-color:	#78757C;
-        --text-color: black;
-    }
 }
