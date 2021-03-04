@@ -1,0 +1,86 @@
+.font-satisfy{
+    font-family: 'Satisfy', cursive;
+    font-size: x-large;
+}
+
+.min-margin{
+    margin-top: .1rem;
+}
+
+.font-yellowtail{
+    font-family: 'Yellowtail', cursive;
+}
+
+.font-josefin{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.banner-area{
+    width: 100%;
+    background-image: url("img/keyboard.jpg");
+    height: 300px;
+    max-height: 300px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-text{
+    color:black;
+    position: relative;
+    top: 40%;
+    font-size: xxx-large; 
+}
+
+.img-ufrn{
+    height: 5rem;
+    width: 14rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.img-lut{
+    height: 4rem;
+    width: 14rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.img-mp{
+    height: 6rem;
+    width: 14rem;
+   padding-top: .5rem;
+}
+
+.img-contact{
+    height: 100px;
+    width: 100px;
+}
+
+.back-gray{
+    background-color:	#78757C;
+    color: black;
+}
+.font-bio{
+    color: white;
+}
+.card{
+    background:transparent;
+    border-width: 2px;
+    border-color: #404040;
+}
+
+.link-net{
+    color: black;
+}
+
+.link-net:hover {
+    color:white;
+}
+
+.img-elk{
+    height: 90px;
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+}
