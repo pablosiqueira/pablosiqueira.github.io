@@ -43,29 +43,41 @@ body{
     font-size: xxx-large; 
 }
 
+.img-ufrn, .img-lut, .img-mp{
+    width: 14rem;
+}
+
 .img-ufrn{
     height: 5rem;
-    width: 14rem;
     margin-top: 1rem;
     margin-bottom: 0;
 }
 
 .img-lut{
     height: 4rem;
-    width: 14rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
 
 .img-mp{
     height: 6rem;
-    width: 14rem;
-   padding-top: .5rem;
+    padding-top: .5rem;
 }
 
+.img-contact, .img-proj, .img-link, .img-elk{
+    transition: transform .2s;
+}
 .img-contact{
     height: 100px;
     width: 100px;
+}
+
+.img-proj{
+    max-height: 128px;
+}
+
+.img-proj:hover, .img-contact:hover, .img-link:hover, .img-elk:hover{
+    transform: scale(1.2);
 }
 
 .back-ay{
