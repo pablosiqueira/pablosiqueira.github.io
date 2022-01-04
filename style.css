@@ -65,7 +65,7 @@ body{
 }
 
 .img-contact, .img-proj, .img-link, .img-elk{
-    transition: transform .2s;
+    transition: transform 1s;
 }
 .img-contact{
     height: 100px;
