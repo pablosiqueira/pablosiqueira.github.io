@@ -3,6 +3,7 @@
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="footer.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -36,10 +37,12 @@
                           Projects
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="https://60cbad8625e2d700b0070082--frosty-kilby-621112.netlify.app/" target="_blank">Global Store</a></li>
-                          <li><a class="dropdown-item" href="https://elated-albattani-2f6e01.netlify.app/" target="_blank">Pet Adoption</a></li>
-                          <li><a class="dropdown-item" href="https://dazzling-goldstine-fa1e34.netlify.app/" target="_blank">Ghibli Collection</a></li>
-                          <li><a class="dropdown-item" href="https://elegant-clarke-e140bf.netlify.app/#/home" target="_blank">Vue My Jersey Collection</a></li>
+                          <li><a class="dropdown-item" href="https://627d4de3b4a00e0380385306--tranquil-dodol-f7a208.netlify.app/" target="_blank">React-Expenses List</a></li>
+                          <li><a class="dropdown-item" href="https://pablo-node-mdb-shop-app.herokuapp.com/" target="_blank">NodeJS-Custom Shop</a></li>
+                          <li><a class="dropdown-item" href="https://60cbad8625e2d700b0070082--frosty-kilby-621112.netlify.app/" target="_blank">VueJS-Global Store</a></li>
+                          <!--<li><a class="dropdown-item" href="https://elated-albattani-2f6e01.netlify.app/" target="_blank">Pet Adoption</a></li>-->
+                          <li><a class="dropdown-item" href="https://dazzling-goldstine-fa1e34.netlify.app/" target="_blank">VueJS-Ghibli Collection</a></li>
+                          <li><a class="dropdown-item" href="https://elegant-clarke-e140bf.netlify.app/#/home" target="_blank">VueJS-My Jersey Collection</a></li>
                           <li><a class="dropdown-item" href="https://pablosiqueira.github.io/quiz-list/" target="_blank">Quiz Creator</a></li>
                           <li><a class="dropdown-item" href="https://pablosiqueira.github.io/myjerseycollection/" target="_blank">My Jersey Collection</a></li>
                           <li><a class="dropdown-item" href="https://pablosiqueira.github.io/jscalculator/" target="_blank">Javascript Calculator</a></li>
@@ -78,6 +81,22 @@
 
             <section class="back-forest" id="projects">
               <div class="font-josefin pb-3">
+                <h2 class="text-center pt-3  pb-2 fw-bolder">React Projects</h2>
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-sm-3">
+                      <a href="https://627d4de3b4a00e0380385306--tranquil-dodol-f7a208.netlify.app/" target="_blank" class="link-net">
+                      <img src="img/react.png" class="img-fluid d-block mx-auto img-proj" alt="Store">
+                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">Expenses List</h2></a>
+                      <h3 class="text-center fs-5 mx-3 pt-2">The page shows a static list of expenses and it allows to filter the elements and add new ones.
+                      </h3>
+                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/react-expenses-list" 
+                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="font-josefin pb-3">
                 <h2 class="text-center pt-3  pb-2 fw-bolder">Mongo DB Projects</h2>
                 <div class="container">
                   <div class="row justify-content-center">
@@ -88,6 +107,8 @@
                       <h3 class="text-center fs-5 mx-3 pt-2">It allows to add, edit and delete products from a Database and also do basic
                         shopping tasks like add items to cart and make orders. The page uses a Node JS server connected to Mongo DB Atlas.
                       </h3>
+                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/NodeMongoDb" 
+                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -103,7 +124,10 @@
                       <h3 class="text-center fs-5 mx-3 pt-2">Fictional web store page using Vue JS v3, Vuex, Axios API and Tailwind CSS.
                         Data obtained from my own Json Server for testing.
                       </h3>
+                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/global-store" 
+                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
                     </div>
+                   <!--
                     <div class="col-sm-3">
                       <a href="https://elated-albattani-2f6e01.netlify.app/" target="_blank" class="link-net">
                       <img src="img/pet.png" class="img-fluid d-block mx-auto img-proj" alt="Pet pawn">
@@ -111,7 +135,10 @@
                       <h3 class="text-center fs-5 mx-3 pt-2">Webpage created using Vue JS v2 alongside Vuex and Vuefire 
                         for Firebase connection.
                       </h3>
+                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/global-store" 
+                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
                     </div>
+                   --> 
                     <div class="col-sm-3">
                       <a href="https://dazzling-goldstine-fa1e34.netlify.app/" target="_blank" class="link-net">
                       <img src="img/totoro.png" class="img-fluid d-block mx-auto img-proj" alt="Totoro">
@@ -119,6 +146,8 @@
                       <h3 class="text-center fs-5 mx-3 pt-2">Webpage created using Vue JS v3 alongside Vue Router, Axios API 
                         ,Spectre CSS and custom components. 
                       </h3>
+                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/ghibli-collection" 
+                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
                     </div>
                     <div class="col-sm-3">
                       <a href="https://elegant-clarke-e140bf.netlify.app/#/home" target="_blank" class="link-net">
@@ -127,6 +156,8 @@
                       <h3 class="text-center fs-5 mx-3 pt-2">Webpage created using Vue JS v2 alongside Vue Router using 
                         Bootsrap Vue and custom components.
                       </h3>
+                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/vue-my-jersey-collection" 
+                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -141,6 +172,8 @@
                       <h3 class="text-center fs-5 mx-3 pt-2">Creation of quizes with questions and answers using forms. Implemented
                         with Javascript and JQuery.
                       </h3>
+                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/quiz-list" 
+                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
                     </div>
       
                     <div class="col-sm-3">
@@ -149,6 +182,8 @@
                       <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">My Jersey Collection</h2></a>
                       <h3 class="text-center fs-5 mx-3 pt-2">Page that show the history of some football jerseys.
                       </h3>
+                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/myjerseycollection" 
+                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
                     </div>
                     <div class="col-sm-3">
                       <a href="https://pablosiqueira.github.io/jscalculator/" target="_blank" class="link-net">
@@ -156,6 +191,8 @@
                       <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">Javascript Calculator</h2></a>
                       <h3 class="text-center fs-5 mx-3 pt-2">Simple calculator simulation using Javascript functions.
                       </h3>
+                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/jscalculator" 
+                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
                     </div>
                     <div class="col-sm-3">
                       <a href="https://pablosiqueira.github.io/jsquiz/" target="_blank" class="link-net">
@@ -163,6 +200,8 @@
                       <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">Hogwarts Quiz</h2></a>
                       <h3 class="text-center fs-5 mx-3 pt-2">Simple quiz using Javascript functions.
                       </h3>
+                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/jsquiz" 
+                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
                     </div>
                     <div class="col-sm-3">
                       <a href="https://pablosiqueira.github.io/hangman/" target="_blank" class="link-net">
@@ -170,6 +209,8 @@
                       <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">Hangman Game</h2></a>
                       <h3 class="text-center fs-5 mx-3 pt-2">Simple game using Javascript functions.
                       </h3>
+                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/hangman" 
+                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
                     </div>
                     <div class="col-sm-3">
                       <a href="https://pablosiqueira.github.io/js_table/" target="_blank" class="link-net">
@@ -178,6 +219,8 @@
                       <h3 class="text-center fs-5 mx-3 pt-2">Table using Javascript functions that requests data for calculation and
                         classification of Body Mass Index.
                       </h3>
+                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/js_table" 
+                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
                     </div>
                     
                   </div>
@@ -186,11 +229,13 @@
                 <div class="container">
                   <div class="row justify-content-center">
                     <div class="col-sm-3">
-                      <a href="http://monografias.ufrn.br/handle/123456789/11432" target="_blank" class="link-net">
+                      <a href="https://repositorio.ufrn.br/handle/123456789/43659" target="_blank" class="link-net">
                       <img src="img/justelk.png" class="img-fluid d-block mx-auto img-elk" alt="E.L.K logo from the ELK Stack">
                       <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">Monitoring System for Log Files
                         using Elastic Stack</h2></a>
                       <h3 class="text-center fs-5 mx-3 pt-2">Computer Engineering Completion Work (text in portuguese).</h3>
+                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/elasticsearch-monitoring/raw/main/pablo_tcc_2020_final.pdf" 
+                      target="_blank">Download PDF <i class="bi bi-download"></i></a>
                     </div>
 
 
@@ -206,13 +251,13 @@
                   <div class="row justify-content-center">
                     <div class="col">
                       <img src="img/pc2.png" class="img-fluid d-block mx-auto img-bk" alt="Computer with keyboard and mouse icon">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline ">Web Developer</h2>
+                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline ">Front-End</h2>
                       <h3 class="text-center fs-5 mx-3 pt-2 color-dark">HTML, CSS, Bootsrap, JQuery, Javascript.</h3>
                     </div>
                     <div class="col">
-                      <img src="img/vue_logo.png" class="img-fluid d-block mx-auto img-bk" alt="Vue logo">
+                      <img src="img/vue_react.png" class="img-fluid d-block mx-auto img-bk" alt="Vue logo">
                       <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline ">Frameworks</h2>
-                      <h3 class="text-center fs-5 mx-3 pt-2 color-dark">Vue JS v2 and v3</h3>
+                      <h3 class="text-center fs-5 mx-3 pt-2 color-dark">React, Vue JS v2 and v3</h3>
                     </div>
                     <div class="col">
                       <img src="img/mongo.png" class="img-fluid d-block mx-auto img-bk" alt="Mongo logo">
@@ -372,7 +417,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by Pablo Siqueira. 
+            <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by Pablo Siqueira. 
             </p>
           </div>
         </div>
