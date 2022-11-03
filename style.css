@@ -24,6 +24,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    color: bisque;
 }
 
 body{
@@ -37,7 +38,7 @@ body{
 }
 
 .main-text{
-    color:black;
+    color:honeydew;
     position: relative;
     top: 40%;
     font-size: xxx-large; 
