@@ -34,7 +34,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    color: black;
+    color: white;
 }
 
 .main-text{
@@ -83,7 +83,7 @@ body{
 
 .back-ay{
     background-color: #78757c;
-    color: black;
+    color: white;
 }
 .font-bio{
     color: white;
@@ -95,7 +95,7 @@ body{
 }
 
 .link-net{
-    color: black;
+    color: white;
 }
 
 .link-net:hover {
