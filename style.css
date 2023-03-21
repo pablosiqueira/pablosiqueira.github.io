@@ -25,6 +25,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: bisque;
+    text-shadow: 0 0 20px #000;
 }
 
 body{
@@ -96,6 +97,8 @@ body{
 
 .link-net{
     color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .link-net:hover {
