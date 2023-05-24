@@ -140,6 +140,10 @@ a.btn.btn-light, .social-btns button{
     font-weight: 600;
 }
 
+a.btn.btn-light:hover{
+    background-color: white;
+}
+
 .section-title{
     background-color: #2D3047;
     color: white;
