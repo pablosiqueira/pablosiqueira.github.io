@@ -1,7 +1,108 @@
+body{
+    font-family: 'Josefin Sans', sans-serif; 
+    padding-top: 60px;
+    background-color: #304D6D;
+    color: white;
+}
+
+body{
+   /* width: 100%;
+    background-image: url("img/forest.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;*/
+    /*min-height: 100vh;*/
+}
+
+main{
+    min-height: 100vh;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-links a{
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.main-links a:hover{
+    color: #F4E9CD!important;
+}
+
+header nav, footer{
+    background-color: #82A0BC;
+}
+
+
+.light-text, .nav-link, footer{
+    /*color: #304D6D;*/
+    color:#1b344e;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+    color: #304D6D;
+    /*color: #304D6D;*/
+    color:#1b344e;
+    cursor: default;
+}
+
+
+.cover-area .col{
+    height: fit-content;
+}
+
+.banner-area{
+    width: 100%;
+    background-image: url("img/keyboard.jpg");
+    /*height: 300px;*/
+    height: 100vh;
+   /* max-height: 300px;*/
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #F4E9CD;
+}
+.cover-img{
+    height: auto;
+    width: 100%;
+}
+.cover-text{
+    max-width: fit-content;
+    /*text-shadow: 0 0 20px #000;*/
+   /* background-color: #80808099;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1rem;*/
+}
+
+.cover-text h1{
+    font-family: 'Yellowtail', cursive;
+    font-size: xxx-large;
+}
+
+
 .font-satisfy{
     font-family: 'Satisfy', cursive;
     font-size: x-large;
 }
+
+[id]::before {
+    content: '';
+    display: block;
+    height:      75px;
+    margin-top: -75px;
+    visibility: hidden;
+  }
 
 .min-margin{
     margin-top: .1rem;
@@ -11,110 +112,37 @@
     font-family: 'Yellowtail', cursive;
 }
 
-.font-josefin{
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-.banner-area{
-    width: 100%;
-    background-image: url("img/keyboard.jpg");
-    height: 300px;
-    max-height: 300px;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: bisque;
-    text-shadow: 0 0 20px #000;
-}
-
-body{
-    width: 100%;
-    background-image: url("img/forest.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-}
-
-.main-text{
-    color:honeydew;
-    position: relative;
-    top: 40%;
-    font-size: xxx-large; 
-}
-
-.img-ufrn, .img-lut, .img-mp{
-    width: 14rem;
-}
-
-.img-ufrn{
-    height: 5rem;
-    margin-top: 1rem;
-    margin-bottom: 0;
-}
-
-.img-lut{
-    height: 4rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
-
-.img-mp{
-    height: 6rem;
-    padding-top: .5rem;
-}
-
-.img-contact, .img-proj, .img-link, .img-elk{
-    transition: transform 1s;
-}
-.img-contact{
-    height: 100px;
-    width: 100px;
-}
-
-.img-proj{
-    max-height: 128px;
-}
-
-.img-proj:hover, .img-contact:hover, .img-link:hover, .img-elk:hover{
-    transform: scale(1.2);
-}
-
-.back-ay{
-    background-color: #78757c;
-    color: white;
-}
-.font-bio{
-    color: white;
-}
 .card{
-    background:transparent;
-    border-width: 2px;
-    border-color: #404040;
-}
-
-.link-net{
     color: white;
-    text-decoration: none;
+    background-color:#2D3047;
+}
+
+.card-title{
     font-weight: bold;
+    color: #1B998B;
 }
 
-.link-net:hover {
-    color:white;
+.card-text small{
+    color: wheat;
 }
 
-.img-elk{
-    height: 90px;
-    margin-top: 1.3rem;
-    margin-bottom: 1rem;
+.card-img{
+    height: 75px;
+    width: 75px;
+    margin-inline: auto;
+    object-fit: contain;
 }
 
-.card-text{
-    font-size: 18px;
+a.btn.btn-light, .social-btns button{
+    background-color: #1B998B;
+    border-color: transparent;
+    color: #2D3047;
+    font-weight: 600;
 }
 
-.mx-width{
-    max-width: 300px;
+.section-title{
+    background-color: #2D3047;
+    color: white;
+    border-color: transparent;
 }
+

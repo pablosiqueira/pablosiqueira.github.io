@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="footer.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Yellowtail&Josefin+Sans&Lobster&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -17,450 +16,665 @@
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
                 <div class="container-fluid">
-                  <a class="navbar-brand font-yellowtail">Pablo Siqueira</a>
+                  <span class="navbar-brand font-yellowtail light-text"><b>Pablo Siqueira</b></span>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 font-josefin min-margin">
-                      
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0  min-margin light-text">
                       <li class="nav-item">
-                        <a class="nav-link " href="#skills">Skills</a>
+                        <a class="nav-link" href="#contact"><b>Contact & Networks</b></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#education">Education & Work</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Projects
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="https://627d4de3b4a00e0380385306--tranquil-dodol-f7a208.netlify.app/" target="_blank">React-Expenses List</a></li>
-                          <li><a class="dropdown-item" href="https://pablo-node-mdb-shop-app.herokuapp.com/" target="_blank">NodeJS-Custom Shop</a></li>
-                          <li><a class="dropdown-item" href="https://60cbad8625e2d700b0070082--frosty-kilby-621112.netlify.app/" target="_blank">VueJS-Global Store</a></li>
-                          <!--<li><a class="dropdown-item" href="https://elated-albattani-2f6e01.netlify.app/" target="_blank">Pet Adoption</a></li>-->
-                          <li><a class="dropdown-item" href="https://dazzling-goldstine-fa1e34.netlify.app/" target="_blank">VueJS-Ghibli Collection</a></li>
-                          <li><a class="dropdown-item" href="https://elegant-clarke-e140bf.netlify.app/#/home" target="_blank">VueJS-My Jersey Collection</a></li>
-                          <li><a class="dropdown-item" href="https://pablosiqueira.github.io/quiz-list/" target="_blank">Quiz Creator</a></li>
-                          <li><a class="dropdown-item" href="https://pablosiqueira.github.io/myjerseycollection/" target="_blank">My Jersey Collection</a></li>
-                          <li><a class="dropdown-item" href="https://pablosiqueira.github.io/jscalculator/" target="_blank">Javascript Calculator</a></li>
-                          <li><a class="dropdown-item" href="https://pablosiqueira.github.io/jsquiz/" target="_blank">Hogwarts Quiz</a></li>
-                          <li><a class="dropdown-item" href="https://pablosiqueira.github.io/hangman/" target="_blank">Hangman Game</a></li>
-                          <li><a class="dropdown-item" href="https://pablosiqueira.github.io/js_table/" target="_blank">BMI Table</a></li>
-                          <li><a class="dropdown-item" href="http://monografias.ufrn.br/handle/123456789/11432" 
-                            target="_blank">Elasticsearch Monitoring System (pdf)</a></li>
-                        </ul>
+                        <a class="nav-link" href="#about"><b>About</b></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact & Networks</a>
+                        <a class="nav-link" href="#projects"><b>Projects</b></a>
+                      </li>    
+                      <li class="nav-item">
+                        <a class="nav-link" href="#skills"><b>Skills</b></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#education"><b>Work & Education</b></a>
                       </li>
                     </ul>
-                   
                   </div>
                 </div>
               </nav>
         </header>
 
         <main>
-            <section class="banner">
-                <div class="banner-area">
-                    <h1 class="text-center main-text font-yellowtail">Pablo Siqueira</h1>
-                    <h2 class="text-center main-text font-josefin fst-italic fs-4">Web Developer - BI Analist - Computer Engineer</h2>
-                    <h2 class="text-center main-text font-josefin fst-italic fs-4">React/NextJs/VueJs and NodeJs/MongoDB Skills</h2>
-                </div>
-            </section>
-
-            <section class="bg-dark">
-              <div class="font-josefin pb-3 pt-3">
-                <h2 class="text-center font-bio fs-4 pt-3 fst-italic mx-5 font-josefin">Hi, I'm Pablo Favero de Siqueira.
-                  Here are some of my skills and background as a developer. 
-                  <br>Please, feel free to send an e-mail if you are intererested in hiring me.</h2>
-              </div>
-            </section>
-
-
-            <section class="back-forest font-josefin" id="projects">
-
-              <div class="mb-3 text-center">
-                <h2 class="my-4 fw-bolder">NextJS/MongoDB FullStack Projects</h2>
-                  <div class="d-flex justify-content-center flex-wrap text-center align-items-baseline">
-
-                    <div class="mx-width mx-2">
-                      <a href="https://vermillion-churros-785584.netlify.app/" 
-                      target="_blank" class="link-net">
-                      <img src="img/football.png" class="img-fluid img-proj" alt="Jersey Database">
-                      <h4 class="text-decoration-underline"><b>Jersey Database</b></h4></a>
-                      <h5>New version of My Jersey Collection projects, 
-                        now created in NexJS with data from MongoDB
-                      </h5>
-                      <a class="link-net" href="https://github.com/pablosiqueira/jersey-center" 
-                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
+          <section class="container" id="contact">
+            <div class="row align-items-center justify-content-between cover-area" style="min-height: 500px;">
+              <div class="cover-text text-center col-12 col-md-6">
+                <h1><b>Pablo Siqueira</b></h1>
+                <h4>Front-End Developer 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                  </svg>
+                  I.T Support</h4>
+                  <div class="container my-4 text-center">
+                    <div class="row">
+                      <div class="col-4 col-md-2"><img  src="img/logos/react.png" title="React"/></div>
+                      <div class="col-4 col-md-2"><img  src="img/logos/nextjs.png" title="NextJS"/></div>
+                      <div class="col-4 col-md-2"><img  src="img/logos/vue.png" title="VueJS"/></div>
+                      <div class="col-4 col-md-2"><img  src="img/logos/figma.png" title="Figma"/></div>
+                      <div class="col-4 col-md-2"><img  src="img/logos/node.png" title="Node JS"/></div>
+                      <div class="col-4 col-md-2"><img  src="img/logos/mongo.png" title="MongoDB"/></div>
                     </div>
-
-                    <div class="mx-width mx-2">
-                      <a href="https://joyful-queijadas-486640.netlify.app/" target="_blank" class="link-net">
-                      <img src="img/sport_shop2.png" class="img-fluid img-proj" alt="Store">
-                      <h4 class="text-center text-decoration-underline"><b>Sports Store</b></h4></a>
-                      <h5>NextJS web shop integrated with a MongoDB server 
-                        that allows to create a user, place an order, add and edit products.
-                      </h5>
-                      <a class="link-net" href="https://github.com/pablosiqueira/nextjs-shop" 
-                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
-                    </div>
-
-                    <div class="mx-width mx-2">
-                      <a href="https://fantastic-clafoutis-615a03.netlify.app/" target="_blank" class="link-net">
-                      <img src="img/pet.png" class="img-fluid img-proj" alt="Store">
-                      <h4 class="text-decoration-underline"><b>Pet Adoption Center</b></h4></a>
-                      <h5>NextJS integrated with a MongoDB server that allows to create a user, add a pet, search for pets, search for users and send messages for other users.
-                      </h5>
-                      <a class="link-net" href="https://github.com/pablosiqueira/react-pets" 
-                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
-                    </div>
-
                   </div>
+                  <div class="social-btns text-center my-4">
+                    <a href="https://github.com/pablosiqueira" target="_blank">
+                      <button type="button" class="btn btn-light m-1"><i class="bi bi-github" title="Github"></i> Github</button></a>
+                    <a href="https://www.linkedin.com/in/pablo-siqueira-457867150/" target="_blank">
+                      <button type="button" class="btn btn-light m-1"><i class="bi bi-linkedin" title="Github"></i> Linkedin</button></a>
+                    <a href="https://github.com/pablosiqueira/cv/blob/main/cv_04_2023_eng.pdf" target="_blank">
+                      <button type="button" class="btn btn-light m-1"><i class="bi bi-newspaper" title="Github"></i> CV-ENG</button></a>
+                    <a href="https://github.com/pablosiqueira/cv/blob/main/cv_pt_br_02_2023.pdf" target="_blank">
+                      <button type="button" class="btn btn-light m-1"><i class="bi bi-newspaper" title="Github"></i> CV-PT/BR</button></a>
+                    <a href="http://www.lattes.cnpq.br/9695010765251628" target="_blank">
+                      <button type="button" class="btn btn-light m-1"><i class="bi bi-newspaper" title="Github"></i> Lattes</button></a>
+                  </div>
+                  <h5 class="text-center">pablo16@outlook.com
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                      <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                    </svg>
+                    pablosiq16@gmail.com
+                  </h5>
+              </div>
+              <div class="col-12 col-md-6 text-center">
+                <img src="./img/cover-img.svg" class="cover-img"/>
+                <small>
+                  <a href="https://www.freepik.com/free-vector/programming-concept-illustration_7118756.htm#query=programmer&position=5&from_view=keyword&track=sph">Image by storyset</a> on Freepik
+                </small>
+              </div>
+            </div>
+          </section>
+
+          <div class="text-center main-links d-flex align-items-center justify-content-center flex-wrap my-4">
+            <a href="#bio">ABOUT</a> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+              <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+            </svg>
+            <a href="#projects">PROJECTS</a> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+              <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+            </svg>
+            <a href="#education">EDUCATION & WORK</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+              <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+            </svg>
+            <a href="#skills">SKILLS</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+              <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+            </svg>
+            <a href="#contact">CONTACT</a>
+          </div>
+          <!--<a href="https://www.freepik.com/free-vector/programming-concept-illustration_7118756.htm#page=3&position=18&from_view=author">Image by storyset</a> on Freepik-->
+          
+          <section id="about" class="container">
+            <div class="row align-items-center justify-content-between cover-area">
+              <div class="col-12 col-md-6 text-center">
+                <img src="./img/main/user2a.png" class="cover-img"/>
+                <small>
+                  <a href="https://www.freepik.com/free-vector/programming-concept-illustration_7118756.htm#query=programmer&position=5&from_view=keyword&track=sph">Image by storyset</a> on Freepik
+                </small>
+              </div>
+              <div class="col-12 col-md-6">
+                <h1 class="text-center">About me</h1>
+                <h5 class="text-justify nav_item ">My name is Pablo Siqueira. I'm bachelor in Computer Engineering and Science & Techonology 
+                  by the Federal University of Rio Grande do Norte (UFRN) from Brazil and former exchange student of the Lappeeranta 
+                  University of Technology (LUT) in Finland.</h5>
+              </div>
+            </div>
+          </section>
+
+            <section id="projects">
+                  <h1 class="section-title text-center py-2">PROJECTS</h1>
+              <div class="mb-3 text-center">
+                <h2 class="my-4 fw-bolder">FullStack</h2>
+
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col-12 col-md-6  my-2">
+                      <div class="card mb-3 h-100">
+                        <div class="row g-0 align-items-center h-100">
+                          <div class="col-md-4">
+                            <img src="img/football.png" class="img-fluid rounded-start" alt="football jersey">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Jersey Database 3.0</h5>
+                              <p><small><i>NextJS - MongoDB</i></small></p>
+                              <p class="card-text">Showcase of a football jersey database with tools to search, edit and add items.</p>
+                              <a href="https://jersey-database.vercel.app/" target="_blank" class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                              <a href="https://github.com/pablosiqueira/jersey-center" target="_blank"
+                              class="btn btn-light m-1">Source Code <i class="bi bi-box-arrow-up-right"></i></a>           
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 my-2">
+                      <div class="card mb-3 h-100">
+                        <div class="row g-0 align-items-center h-100">
+                          <div class="col-md-4">
+                            <img src="img/sport_shop.png" class="img-fluid rounded-start" alt="store">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Sports Store</h5>
+                              <p><small><i>NextJS - MongoDB</i></small></p>
+                              <p class="card-text">Web shop with tools to search, edit and add items, user management and order actions.</p>
+                              <a href="https://sports-store-nextjs.vercel.app/" target="_blank" class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                              <a href="https://github.com/pablosiqueira/nextjs-shop" target="_blank"
+                              class="btn btn-light m-1">Source Code <i class="bi bi-box-arrow-up-right"></i></a>           
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 my-2">
+                      <div class="card mb-3 h-100">
+                        <div class="row g-0 align-items-center h-100">
+                          <div class="col-md-4">
+                            <img src="img/pets.png" class="img-fluid rounded-start" alt="pet">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Pet Adoption Center</h5>
+                              <p><small><i>NextJS - MongoDB</i></small></p>
+                              <p class="card-text">Page with tools to search, edit and add pets, user management and simple private message system.</p>
+                              <a href="https://fantastic-clafoutis-615a03.netlify.app/" target="_blank" class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                              <a href="https://github.com/pablosiqueira/react-pets" target="_blank"
+                              class="btn btn-light m-1">Source Code <i class="bi bi-box-arrow-up-right"></i></a>           
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 my-2">
+                      <div class="card mb-3 h-100">
+                        <div class="row g-0 align-items-center h-100">
+                          <div class="col-md-4">
+                            <img src="img/cart2.png" class="img-fluid rounded-start" alt="shopping cart">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Custom Shop</h5>
+                              <p><small><i>NodeJS - MongoDB</i></small></p>
+                              <p class="card-text">Add, edit and delete products from a Database and also do basic
+                                shopping tasks like add items to cart and make orders.</p>
+                              <!--<a href="https://pablo-node-mdb-shop-app.herokuapp.com/" target="_blank" 
+                                class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>-->
+                              <a href="https://github.com/pablosiqueira/NodeMongoDb" target="_blank"
+                              class="btn btn-light m-1">Source Code <i class="bi bi-box-arrow-up-right"></i></a>           
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="mb-3 text-center">
+                  <h2 class="my-4 fw-bolder">Front-End with Frameworks</h2>
+                  <div class="container text-center">
+                    <div class="row">
+                      <div class="col-12 col-md-6 my-2">
+                        <div class="card mb-3 h-100">
+                          <div class="row g-0 align-items-center h-100">
+                            <div class="col-md-4">
+                              <img src="img/scale.png" class="img-fluid rounded-start" alt="scale">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">Body Mass Index (BMI) Calculator</h5>
+                                <p><small><i>React</i></small></p>
+                                <p class="card-text">The page allows the user to calculate the BMI using a form and view the result in a table.</p>
+                                <a href="https://62fa98bf6ae193272df6dd2c--beautiful-figolla-609b73.netlify.app/" target="_blank" class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                                <a href="https://github.com/pablosiqueira/react-bmi" target="_blank"
+                                class="btn btn-light m-1">Source Code <i class="bi bi-box-arrow-up-right"></i></a>           
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 my-2">
+                        <div class="card mb-3 h-100">
+                          <div class="row g-0 align-items-center h-100">
+                            <div class="col-md-4">
+                              <img src="img/receipt.png" class="img-fluid rounded-start" alt="receipts">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">Expenses List</h5>
+                                <p><small><i>React</i></small></p>
+                                <p class="card-text">The page shows a static list of expenses and it allows to filter the elements and add new ones.</p>
+                                <a href="https://627d4de3b4a00e0380385306--tranquil-dodol-f7a208.netlify.app/" target="_blank" class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                                <a href="https://github.com/pablosiqueira/react-expenses-list" target="_blank"
+                                class="btn btn-light m-1">Source Code <i class="bi bi-box-arrow-up-right"></i></a>           
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-6 my-2">
+                        <div class="card mb-3 h-100">
+                          <div class="row g-0 align-items-center h-100">
+                            <div class="col-md-4">
+                              <img src="img/shop2.png" class="img-fluid rounded-start" alt="pet">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">Global Store</h5>
+                                <p><small><i>VueJS v3</i></small></p>
+                                <p class="card-text">Web shop with tools to search, edit and add items, user management and order actions.</p>
+                                <a href="https://60cbad8625e2d700b0070082--frosty-kilby-621112.netlify.app/" target="_blank" class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                                <a href="https://github.com/pablosiqueira/global-store" target="_blank"
+                                class="btn btn-light m-1">Source Code <i class="bi bi-box-arrow-up-right"></i></a>           
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-6 my-2">
+                        <div class="card mb-3 h-100">
+                          <div class="row g-0 align-items-center h-100">
+                            <div class="col-md-4">
+                              <img src="img/totoro2a.png" class="img-fluid rounded-start" alt="totoro">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">Studio Ghibli Database</h5>
+                                <p><small><i>VueJS v3</i></small></p>
+                                <p class="card-text">Web shop with tools to search, edit and add items, user management and order actions.</p>
+                                <a href="https://dazzling-goldstine-fa1e34.netlify.app/" target="_blank" class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                                <a href="https://github.com/pablosiqueira/ghibli-collection" target="_blank"
+                                class="btn btn-light m-1">Source Code <i class="bi bi-box-arrow-up-right"></i></a>           
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-6 my-2">
+                        <div class="card mb-3 h-100">
+                          <div class="row g-0 align-items-center h-100">
+                            <div class="col-md-4">
+                              <img src="img/football2.png" class="img-fluid rounded-start" alt="football jersey">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">My Jersey Collection</h5>
+                                <p><small><i>VueJS v2</i></small></p>
+                                <p class="card-text">Showcase of some football jerseys.</p>
+                                <a href="https://elegant-clarke-e140bf.netlify.app/#/home" target="_blank" class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                                <a href="https://github.com/pablosiqueira/vue-my-jersey-collection" target="_blank"
+                                class="btn btn-light m-1">Source Code <i class="bi bi-box-arrow-up-right"></i></a>           
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                      <h2 class="my-4 fw-bolder">Front-End</h2>
+
+                        <div class="row">
+
+                          <div class="col-12 col-md-6 my-2">
+                            <div class="card mb-3 h-100">
+                              <div class="row g-0 align-items-center h-100">
+                                <div class="col-md-4">
+                                  <img src="img/form1.png" class="img-fluid rounded-start" alt="form">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Quiz Creator</h5>
+                                    <p><small><i>HTML- CSS - JS - JQuery</i></small></p>
+                                    <p class="card-text">Creation of quizes with questions and answers using forms.</p>
+                                    <a href="https://pablosiqueira.github.io/quiz-list/" target="_blank" class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                                    <a href="https://github.com/pablosiqueira/quiz-list" target="_blank"
+                                    class="btn btn-light m-1">Source Code <i class="bi bi-box-arrow-up-right"></i></a>           
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-6 my-2">
+                            <div class="card mb-3 h-100">
+                              <div class="row g-0 align-items-center h-100">
+                                <div class="col-md-4">
+                                  <img src="img/jsr2.png" class="img-fluid rounded-start" alt="form">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <h5 class="card-title">My Jersey Collection</h5>
+                                    <p><small><i>HTML- CSS - JS</i></small></p>
+                                    <p class="card-text">Creation of quizes with questions and answers using forms.</p>
+                                    <a href="https://pablosiqueira.github.io/myjerseycollection/" target="_blank" class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                                    <a href="https://github.com/pablosiqueira/myjerseycollection" target="_blank"
+                                    class="btn btn-light m-1">Source Code <i class="bi bi-box-arrow-up-right"></i></a>           
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-6 my-2">
+                            <div class="card mb-3 h-100">
+                              <div class="row g-0 align-items-center h-100">
+                                <div class="col-md-4">
+                                  <img src="img/calc1.png" class="img-fluid rounded-start" alt="form">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Javascript Calculator</h5>
+                                    <p><small><i>HTML- CSS - JS</i></small></p>
+                                    <p class="card-text">Simple calculator with Javascript functions.</p>
+                                    <a href="https://pablosiqueira.github.io/jscalculator/" target="_blank" class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                                    <a href="https://github.com/pablosiqueira/jscalculator" target="_blank"
+                                    class="btn btn-light m-1">Source Code <i class="bi bi-box-arrow-up-right"></i></a>           
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          
+
+                          <div class="col-12 col-md-6 my-2">
+                            <div class="card mb-3 h-100">
+                              <div class="row g-0 align-items-center h-100">
+                                <div class="col-md-4">
+                                  <img src="img/hat1.png" class="img-fluid rounded-start" alt="sorting hat">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Hogwarts Quiz</h5>
+                                    <p><small><i>HTML- CSS - JS</i></small></p>
+                                    <p class="card-text">Quiz to simulate the Hogwarts sorting hat.</p>
+                                    <a href="https://pablosiqueira.github.io/jsquiz/" target="_blank" class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                                    <a href="https://github.com/pablosiqueira/jsquiz" target="_blank"
+                                    class="btn btn-light m-1">Source Code <i class="bi bi-box-arrow-up-right"></i></a>           
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-6 my-2">
+                            <div class="card mb-3 h-100">
+                              <div class="row g-0 align-items-center h-100">
+                                <div class="col-md-4">
+                                  <img src="img/rope.png" class="img-fluid rounded-start" alt="form">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Hangman Game</h5>
+                                    <p><small><i>HTML- CSS - JS</i></small></p>
+                                    <p class="card-text">Simple game using Javascript functions.</p>
+                                    <a href="https://pablosiqueira.github.io/hangman/" target="_blank" class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                                    <a href="https://github.com/pablosiqueira/hangman" target="_blank"
+                                    class="btn btn-light m-1">Source Code <i class="bi bi-box-arrow-up-right"></i></a>           
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-6 my-2">
+                            <div class="card mb-3 h-100">
+                              <div class="row g-0 align-items-center h-100">
+                                <div class="col-md-4">
+                                  <img src="img/scale2.png" class="img-fluid rounded-start" alt="form">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <h5 class="card-title">BMI Table</h5>
+                                    <p><small><i>HTML- CSS - JS</i></small></p>
+                                    <p class="card-text">The page allows the user to calculate the BMI using a form and view the result in a table.</p>
+                                    <a href="https://pablosiqueira.github.io/js_table/" target="_blank" class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                                    <a href="https://github.com/pablosiqueira/js_table" target="_blank"
+                                    class="btn btn-light m-1">Source Code <i class="bi bi-box-arrow-up-right"></i></a>           
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      
+                        <h2 class="my-4 fw-bolder">Elasticsearch</h2>
+                        <div class="row">
+                          <div class="col-12 col-md-6 my-2">
+                            <div class="card mb-3 h-100">
+                              <div class="row g-0 align-items-center h-100">
+                                <div class="col-md-4">
+                                  <img src="img/logos/elk-stack.png" class="img-fluid rounded-start" alt="form">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Monitoring System for Log Files using Elastic Stack</h5>
+                                    <p><small><i>Logstash - Elasticsearch - Kibana</i></small></p>
+                                    <p class="card-text">Computer Engineering Completion Work (text in portuguese).</p>
+                                    <a href="https://repositorio.ufrn.br/handle/123456789/43659" target="_blank" class="btn btn-light m-1">Visit <i class="bi bi-box-arrow-up-right"></i></a>
+                                    <a href="https://github.com/pablosiqueira/elasticsearch-monitoring/raw/main/pablo_tcc_2020_final.pdf" target="_blank"
+                                    class="btn btn-light m-1">Download PDF <i class="bi bi-download"></i></a>         
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+
+          
+
               </div>    
 
-              <div class="mb-3 text-center">
-                <h2 class="my-4 fw-bolder">React Projects</h2>
-                  <div class="d-flex justify-content-center flex-wrap align-items-baseline">
-
-                    <div class="mx-width mx-2">
-                      <a href="https://62fa98bf6ae193272df6dd2c--beautiful-figolla-609b73.netlify.app/" target="_blank" class="link-net">
-                      <img src="img/balance.png" class="img-fluid img-proj" alt="Store">
-                      <h4 class="text-decoration-underline"><b>Body Mass Index (BMI) Calculator</b></h4></a>
-                      <h5>The page allows the user to calculate the BMI using a form and view the result in a table.
-                      </h5>
-                      <a class="link-net" href="https://github.com/pablosiqueira/react-bmi" 
-                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
-                    </div>
-
-                    <div class="mx-width mx-2">
-                      <a href="https://627d4de3b4a00e0380385306--tranquil-dodol-f7a208.netlify.app/" target="_blank" class="link-net">
-                      <img src="img/react.png" class="img-fluid img-proj" alt="Store">
-                      <h4 class="text-decoration-underline"><b>Expenses List</b></h4></a>
-                      <h5>The page shows a static list of expenses and it allows to filter the elements and add new ones.
-                      </h5>
-                      <a class="link-net" href="https://github.com/pablosiqueira/react-expenses-list" 
-                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
-                    </div>
-                  </div>
-              </div>
-
-              <div class="mb-3 text-center">
-                <h2 class="my-4 fw-bolder">Mongo DB Projects</h2>
-                <div class="d-flex justify-content-center flex-wrap align-items-baseline">
-                    <div class="mx-width">
-                      <a href="https://pablo-node-mdb-shop-app.herokuapp.com/" target="_blank" class="link-net">
-                      <img src="img/cart.png" class="img-fluid img-proj" alt="Store">
-                      <h4 class="text-decoration-underline"><b>Custom Shop</b></h4></a>
-                      <h5>Add, edit and delete products from a Database and also do basic
-                        shopping tasks like add items to cart and make orders. The page uses a Node JS server connected to Mongo DB Atlas.
-                      </h5>
-                      <a class="link-net" href="https://github.com/pablosiqueira/NodeMongoDb" 
-                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
-                    </div>
-                  </div>
-              </div>
-
-              <div class="mb-3 text-center">
-                <h2 class="my-4 fw-bolder">Vue JS Projects</h2>
-                <div class="container">
-                  <div class="row justify-content-center">
-                    <div class="col-sm-3">
-                      <a href="https://60cbad8625e2d700b0070082--frosty-kilby-621112.netlify.app/" target="_blank" class="link-net">
-                      <img src="img/shop.png" class="img-fluid d-block mx-auto img-proj" alt="Store">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">Global Store</h2></a>
-                      <h3 class="text-center fs-5 mx-3 pt-2">Fictional web store page using Vue JS v3, Vuex, Axios API and Tailwind CSS.
-                        Data obtained from my own Json Server for testing.
-                      </h3>
-                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/global-store" 
-                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
-                    </div>
-                    <div class="col-sm-3">
-                      <a href="https://dazzling-goldstine-fa1e34.netlify.app/" target="_blank" class="link-net">
-                      <img src="img/totoro.png" class="img-fluid d-block mx-auto img-proj" alt="Totoro">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">Ghibli Database - Vue 3</h2></a>
-                      <h3 class="text-center fs-5 mx-3 pt-2">Webpage created using Vue JS v3 alongside Vue Router, Axios API 
-                        ,Spectre CSS and custom components. 
-                      </h3>
-                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/ghibli-collection" 
-                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
-                    </div>
-                    <div class="col-sm-3">
-                      <a href="https://elegant-clarke-e140bf.netlify.app/#/home" target="_blank" class="link-net">
-                      <img src="img/shirt.png" class="img-fluid d-block mx-auto img-proj" alt="Soccer jersey">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">My Jersey Collection - Vue 2</h2></a>
-                      <h3 class="text-center fs-5 mx-3 pt-2">Webpage created using Vue JS v2 alongside Vue Router using 
-                        Bootsrap Vue and custom components.
-                      </h3>
-                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/vue-my-jersey-collection" 
-                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-
-                <h2 class="text-center my-4 fw-bolder">HTML, CSS, Javascript and JQuery Projects</h2>
-                <div class="container">
-                  <div class="row justify-content-center">
-                    <div class="col-sm-3">
-                      <a href="https://pablosiqueira.github.io/quiz-list/" target="_blank" class="link-net">
-                      <img src="img/form.png" class="img-fluid d-block mx-auto img-link" alt="Soccer jersey">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">Quiz Creator</h2></a>
-                      <h3 class="text-center fs-5 mx-3 pt-2">Creation of quizes with questions and answers using forms. Implemented
-                        with Javascript and JQuery.
-                      </h3>
-                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/quiz-list" 
-                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
-                    </div>
-      
-                    <div class="col-sm-3">
-                      <a href="https://pablosiqueira.github.io/myjerseycollection/" target="_blank" class="link-net">
-                      <img src="img/jsr1.png" class="img-fluid d-block mx-auto img-link" alt="Soccer jersey">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">My Jersey Collection</h2></a>
-                      <h3 class="text-center fs-5 mx-3 pt-2">Page that show the history of some football jerseys.
-                      </h3>
-                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/myjerseycollection" 
-                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
-                    </div>
-                    <div class="col-sm-3">
-                      <a href="https://pablosiqueira.github.io/jscalculator/" target="_blank" class="link-net">
-                      <img src="img/cal2.png" class="img-fluid d-block mx-auto img-link" alt="Calculator icon">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">Javascript Calculator</h2></a>
-                      <h3 class="text-center fs-5 mx-3 pt-2">Simple calculator simulation using Javascript functions.
-                      </h3>
-                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/jscalculator" 
-                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
-                    </div>
-                    <div class="col-sm-3">
-                      <a href="https://pablosiqueira.github.io/jsquiz/" target="_blank" class="link-net">
-                      <img src="img/hat.png" class="img-fluid d-block mx-auto img-link" alt="Hogwarts Crest">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">Hogwarts Quiz</h2></a>
-                      <h3 class="text-center fs-5 mx-3 pt-2">Simple quiz using Javascript functions.
-                      </h3>
-                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/jsquiz" 
-                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
-                    </div>
-                    <div class="col-sm-3">
-                      <a href="https://pablosiqueira.github.io/hangman/" target="_blank" class="link-net">
-                      <img src="img/rope.png" class="img-fluid d-block mx-auto img-link" alt="Rope for hanging">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">Hangman Game</h2></a>
-                      <h3 class="text-center fs-5 mx-3 pt-2">Simple game using Javascript functions.
-                      </h3>
-                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/hangman" 
-                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
-                    </div>
-                    <div class="col-sm-3">
-                      <a href="https://pablosiqueira.github.io/js_table/" target="_blank" class="link-net">
-                      <img src="img/balance.png" class="img-fluid d-block mx-auto img-link" alt="Kitchen scale">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">BMI Table</h2></a>
-                      <h3 class="text-center fs-5 mx-3 pt-2">Table using Javascript functions that requests data for calculation and
-                        classification of Body Mass Index.
-                      </h3>
-                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/js_table" 
-                      target="_blank">Source Code <i class="bi bi-box-arrow-up-right"></i></a>
-                    </div>
-                    
-                  </div>
-                </div>
-                <h2 class="text-center my-4 fw-bolder">Elasticsearch Projects</h2>
-                <div class="container">
-                  <div class="row justify-content-center">
-                    <div class="col-sm-3">
-                      <a href="https://repositorio.ufrn.br/handle/123456789/43659" target="_blank" class="link-net">
-                      <img src="img/justelk.png" class="img-fluid d-block mx-auto img-elk" alt="E.L.K logo from the ELK Stack">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">Monitoring System for Log Files
-                        using Elastic Stack</h2></a>
-                      <h3 class="text-center fs-5 mx-3 pt-2">Computer Engineering Completion Work (text in portuguese).</h3>
-                      <a class="link-net d-block mx-auto text-center fw-bold text-decoration-none" href="https://github.com/pablosiqueira/elasticsearch-monitoring/raw/main/pablo_tcc_2020_final.pdf" 
-                      target="_blank">Download PDF <i class="bi bi-download"></i></a>
-                    </div>
-                  </div>
-                </div>   
             </section>
 
-            <section class="back-gray font-josefin text-center" id="skills">
-              <div class="mb-3">
-                <h2 class="my-4 fw-bolder">Skills</h2>
-                <div class="container">
-                  <div class="row justify-content-center">
-                    <div class="col">
-                      <img src="img/pc2.png" class="img-fluid d-block mx-auto img-bk" alt="Computer with keyboard and mouse icon">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline ">Front-End</h2>
-                      <h3 class="text-center fs-5 mx-3 pt-2 color-dark">HTML, CSS, Bootsrap, JQuery, Javascript, Figma</h3>
+            <section class="text-center py-2" id="skills">
+
+              <h1 class="section-title py-2">SKILLS</h1>
+
+                <div class="container my-4">
+                  <div class="row">
+
+                    <div class="col-12 col-md-3 my-2">
+                      <div class="card mb-3 h-100">
+                            <img src="img/pc.png" class="card-img-top card-img my-2" alt="computer">
+                            <div class="card-body">
+                              <h5 class="card-title">Front-End</h5>
+                              <p class="card-text">HTML, CSS, Bootsrap, JQuery, Javascript</p>        
+                            </div>
+                      </div>
                     </div>
-                    <div class="col">
-                      <img src="img/vue_react.png" class="img-fluid d-block mx-auto img-bk" alt="Vue logo">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline ">Frameworks</h2>
-                      <h3 class="text-center fs-5 mx-3 pt-2 color-dark">React, Next JS, Vue JS v2 and v3</h3>
+                    
+                      <div class="col-12 col-md-3 my-2">
+                        <div class="card mb-3 h-100">
+                              <img src="img/logos/figmabig.png" class="card-img-top card-img my-2" alt="figma logo">
+                              <div class="card-body">
+                                <h5 class="card-title">UI/UX</h5>
+                                <p class="card-text">Figma</p>        
+                              </div>
+                        </div>
+                      </div>
+                      
+                    
+
+                    <div class="col-12 col-md-3 my-2">
+                      <div class="card mb-3 h-100">
+                            <img src="img/vue_react.png" class="card-img-top card-img my-2" alt="figma logo">
+                            <div class="card-body">
+                              <h5 class="card-title">Frameworks</h5>
+                              <p class="card-text">NextJS, React, Vue</p>        
+                            </div>
+                      </div>
                     </div>
-                    <div class="col">
-                      <img src="img/mongo.png" class="img-fluid d-block mx-auto img-bk" alt="Mongo logo">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline ">Data Bases</h2>
-                      <h3 class="text-center fs-5 mx-3 pt-2 color-dark">Mongo DB, Firebase</h3>
+
+                    <div class="col-12 col-md-3 my-2">
+                      <div class="card mb-3 h-100">
+                            <img src="img/logos/mongo128.png" class="card-img-top card-img my-2" alt="mongodb logo">
+                            <div class="card-body">
+                              <h5 class="card-title">Data Bases</h5>
+                              <p class="card-text">MongoDB, Elasticsearch</p>        
+                            </div>
+                      </div>
                     </div>
-                    <div class="col">
-                      <img src="img/node.png" class="img-fluid d-block mx-auto img-bk" alt="Node logo">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline ">Server</h2>
-                      <h3 class="text-center fs-5 mx-3 pt-2 color-dark">Node JS</h3>
+
+                    <div class="col-12 col-md-3 my-2">
+                      <div class="card mb-3 h-100">
+                            <img src="img/node.png" class="card-img-top card-img my-2" alt="mongodb logo">
+                            <div class="card-body">
+                              <h5 class="card-title">Server</h5>
+                              <p class="card-text">NodeJS</p>        
+                            </div>
+                      </div>
                     </div>
-                    <div class="col">
-                      <img src="img/mpbi.png" class="img-fluid d-block mx-auto img-bk" alt="Microsoft Power BI logo">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline ">Business Intelligence</h2>
-                      <h3 class="text-center fs-5 mx-3 pt-2">Microsoft Power BI, Kibana.</h3>
+
+                    <div class="col-12 col-md-3 my-2">
+                      <div class="card mb-3 h-100">
+                            <img src="img/support.png" class="card-img-top card-img my-2" alt="mongodb logo">
+                            <div class="card-body">
+                              <h5 class="card-title">User Support</h5>
+                              <p class="card-text">Experience in solving hardware and software issues.</p>        
+                            </div>
+                      </div>
                     </div>
-                    <div class="col">
-                      <img src="img/elt.png" class="img-fluid d-block mx-auto img-bk" alt="Elastic Stack logo">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline ">Elastic Stack</h2>
-                      <h3 class="text-center fs-5 mx-3 pt-2">Elasticsearch, Logstash, Beats and Kibana.</h3>
-                    </div>
-                    <div class="col">
-                      <img src="img/sup4.png" class="img-fluid d-block mx-auto img-bk" alt="Computer screen icon">
-                      <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline ">User Support</h2>
-                      <h3 class="text-center fs-5 mx-3 pt-2">Experience in solving hardware and software issues.</h3>
-                    </div>
+
                   </div>
+
                 </div>
+
+  
             </section>
 
             <section class="back-gray" id="work">
-              <h2 class="text-center pt-3 pb-3  fw-bolder">Work Experience</h2>
-              <div class="container pb-3 font-josefin">
-                <div class="row justify-content-center">
-                  <div class="col-sm-1 col-md-4">
-                    <div class="card m-3">
-                      <a class="d-block mx-auto" href="https://www.2clix.com.br/" target="_blank" title="2Clix Home Page">
-                        <img src="img/2clix.png" class="card-img-top img-lut mx-auto p-0 img-bk2" alt="2Clix Logo" style="width: fit-content;">
-                      </a>                  
-                      <div class="card-body">
-                        <h5 class="card-title fw-bold text-center">Jr Front End Developer<br>07/2021 - 01/2022</h5>
-                        <p class="card-text mb-4">Remote Job at 2Clix Technology (SP/Brazil)</p>
 
+                <h1 class="section-title text-center py-2">WORK & EDUCATION</h1>
+
+              <div class="container text-center">
+                <h2 class="my-4 fw-bolder">Work Experience</h2>
+                <div class="row">
+
+                  <div class="col-12 col-md-6 my-2">
+                    <div class="card mb-3 h-100">
+                      <div class="row g-0 align-items-center h-100">
+                        <div class="col-md-4">
+                          <a class="d-block mx-auto" href="https://www.2clix.com.br/" target="_blank" title="2Clix Home Page">
+                            <img src="img/logos/2clix.png" class="img-fluid rounded-start px-2" alt="2Clix Logo">
+                          </a>  
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Jr Front End Developer</br>07/2021 - 01/2022</h5>
+                            <p><small><i>2Clix Tecnologia</i></small></p>
+                            <p class="card-text">Development,test and maintenance of web pages</p>      
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-1 col-md-4">
-                    <div class="card m-3">
-                      <img src="img/mpbw.png" class="card-img-top img-mp mx-auto img-bk2" alt="MPRN logo">
-                      <div class="card-body">
-                        <h5 class="card-title fw-bold text-center">I.T. Internship - 2018-2020</h5>
-                        <p class="card-text mb-4">Attorney General's Office of 
-                          the State of Rio Grande do Norte (PGJ) - Public Ministry/RN (MP/RN) - Natal, Brazil.</p>
+
+                  <div class="col-12 col-md-6 my-2">
+                    <div class="card mb-3 h-100">
+                      <div class="row g-0 align-items-center h-100">
+                        <div class="col-md-4">
+                          <img src="img/logos/mprn1a.png" class="img-fluid rounded-start px-2" alt="MPRN Logo">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">I.T. Internship</br>07/2018 - 07/2020</h5>
+                            <p><small><i>Public Ministry/RN (MP/RN)</i></small></p>
+                            <p class="card-text">User support, BI development, systems testing</p>        
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
+
                 </div>
-              </section>
+              </div>    
 
-            <section class="back-gray" id="education">
-              <h2 class="text-center pt-3 pb-3  fw-bolder">Education Background</h2>
-              <div class="container pb-3 font-josefin">
-                <div class="row justify-content-center">
-                  <div class="col-sm-1 col-md-4">
-                    <div class="card m-3">
-                      <img src="img/ufbw.png" class="card-img-top img-ufrn mx-auto p-0 img-bk2" alt="UFRN logo">
-                      <div class="card-body">
-                        <h5 class="card-title fw-bold text-center">Bachelor - 2 Degrees</h5>
-                        <p class="card-text font-box">Computer Engineering
-                          and Science & Technology by the Federal University of Rio Grande do Norte (UFRN) - Natal, Brazil.</p>
+              <div class="container text-center">
+                <h2 class="my-4 fw-bolder">Education Background</h2>
+                <div class="row">
+
+                  <div class="col-12 col-md-6 my-2">
+                    <div class="card mb-3 h-100">
+                      <div class="row g-0 align-items-center h-100">
+                        <div class="col-md-4">
+                            <img src="img/ufbw.png" class="img-fluid rounded-start px-2" alt="UFRN Logo">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Computer Engineering</h5>
+                            <p><small><i>Federal University of Rio Grande do Norte (UFRN)</br>Natal, Brazil</i></small></p>
+                            <p class="card-text">Bachelor's degree</p>      
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-1 col-md-4">
-                    <div class="card m-3">
-                      <img src="img/lutblack.png" class="card-img-top img-lut mx-auto p-0 img-bk2" alt="LUT logo">
-                      <div class="card-body">
-                        <h5 class="card-title fw-bold text-center">Exchange Program - 2013-2014</h5>
-                        <p class="card-text mb-4">Science without Borders program in 
-                          the Lappeenranta University of Technology (LUT) - Lappeenranta, Finland.</p>
+
+                  <div class="col-12 col-md-6 my-2">
+                    <div class="card mb-3 h-100">
+                      <div class="row g-0 align-items-center h-100">
+                        <div class="col-md-4">
+                            <img src="img/ufbw.png" class="img-fluid px-2" alt="UFRN Logo">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Science & Technology</h5>
+                            <p><small><i>Federal University of Rio Grande do Norte (UFRN)</br>Natal, Brazil</i></small></p>
+                            <p class="card-text">Bachelor's degree with computing emphasis</p>      
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-              </section>
-          
-              <section class="back-gray" id="contact">
-                <div class="font-josefin pb-3">
-                  <h2 class="text-center pt-3 pb-3  fw-bolder">Contact and Networks</h2>
-                  <div class="container">
-                    <div class="row justify-content-center">
-                      <div class="col-12 col-sm-3">
-                        <img src="img/mail.png" class="img-fluid d-block mx-auto img-contact" alt="Letter icon">
-                        <h2 class="text-center fs-5 mx-3 pt-3 fw-bold text-decoration-underline">E-mail</h2>
-                        <h3 class="text-center fs-5 mx-3 pt-2">pablo16@outlook.com</h3>
-                        <h3 class="text-center fs-5 mx-3 pt-2">pablosiq16@gmail.com</h3>
-                      </div>
-                      <div class="col">
-                        <a href="https://www.linkedin.com/in/pablo-siqueira-457867150/" target="_blank" class="link-net">
-                          <img src="img/in.png" class="img-fluid d-block mx-auto img-contact" alt="Linkedin logo">
-                          <h2 class="text-center fs-5 mx-3 pt-3 fw-bold">Linkedin</h2>
-                        </a>  
-                      </div>
-                      <div class="col">
-                        <a href="https://github.com/pablosiqueira" target="_blank" class="link-net">
-                          <img src="img/git.png" class="img-fluid d-block mx-auto img-contact" alt="Github logo">
-                          <h2 class="text-center fs-5 mx-3 pt-3 fw-bold">Github</h2>
-                        </a> 
-                      </div>
-                      <div class="col">
-                        <a href="http://lattes.cnpq.br/9695010765251628" target="_blank" class="link-net">
-                          <img src="img/curriculum.png" class="img-fluid d-block mx-auto img-contact " alt="Papers">
-                          <h2 class="text-center fs-5 mx-3 pt-3 fw-bold">Curriculum Lattes</h2>
-                        </a>      
+
+                  <div class="col-12 col-md-6 my-2">
+                    <div class="card mb-3 h-100">
+                      <div class="row g-0 align-items-center h-100">
+                        <div class="col-md-4">
+                          <img src="img/logos/lut2c.png" class="img-fluid px-2" alt="form">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Exchange Program</br>07/2013 - 07/2014</h5>
+                            <p><small><i>Lappeenranta University of Technology (LUT)</br>Lappeenranta, Finland.</i></small></p>
+                            <p class="card-text">Bachelor level <i>Science without Borders</i> sanduich graduation program</p>        
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
+
+                </div>
+              </div>    
               </section>
 
         </main>
 
         
     <!-- Site footer -->
-    <footer class="site-footer bg-dark" id="info">
-      <div class="container ">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <h6 class="font-yellowtail">About</h6>
-            <p class="text-justify nav_item font-josefin">Web page created by Pablo Siqueira. Bachelor in Computer Engineering and Science & Techonology 
-              by the Federal University of Rio Grande do Norte (UFRN) from Brazil and former exchange student of the Lappeeranta 
-              University of Technology (LUT) in Finland.</p>
-          </div>
-
-          <div class="col-xs-6 col-md-3">
-            <h6 class="font-yellowtail">Contact & Networks</h6>
-            <ul class="footer-links nav_item">
-              <li><a> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
-              </svg> Email: pablo16@outlook.com</a></li>
-              <li><a href="https://www.linkedin.com/in/pablo-siqueira-457867150/" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                </svg> Linkedin</a></li>
-              <li><a href="http://lattes.cnpq.br/9695010765251628" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16">
-                  <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
-                  <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
-                </svg> Curriculum Lattes</a></li>
-              <li><a href="https://github.com/pablosiqueira" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                </svg> Github</a></li>
-            </ul>
-          </div>
-        </div>
-        <hr>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by Pablo Siqueira. 
-            </p>
-          </div>
-        </div>
-      </div>
-</footer>
-        
-
-    </body>
+    <footer class="p-4 text-center mt-4" id="info">
+            <span class="nav-link"><b>Copyright &copy; 2023 All Rights Reserved by Pablo Siqueira - pablo16@outlook.com</b></span>
+    </footer>
+    
+  </body>
 </html>
