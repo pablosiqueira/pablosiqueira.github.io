@@ -133,7 +133,7 @@ header nav, footer{
     object-fit: contain;
 }
 
-a.btn.btn-light, .social-btns button{
+a.btn.btn-light, .social-btns button, .greenBtn{
     background-color: #1B998B;
     border-color: transparent;
     color: #2D3047;
@@ -148,5 +148,10 @@ a.btn.btn-light:hover{
     background-color: #2D3047;
     color: white;
     border-color: transparent;
+}
+
+.cv-img{
+    height: 25px;
+    width: 25px;
 }
 
